@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.list {
+    list-style-type: none;
+    list-style-position: inside;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.img1 {
+    width: 350px;
+    height: 150px;
+}
+
+.img2 {
+    width: 350px;
+    height: 100px;
+}
