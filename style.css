@@ -8,21 +8,54 @@ body {
     background-color: aqua;
 }
 
+li {
+    width: 350px;
+    background-color: aliceblue;
+    
+}
+
 .list {
     list-style-type: none;
     list-style-position: inside;
     display: grid;
     gap: 50px;
     grid-template-columns: repeat(3, 1fr);
-    
+    grid-auto-flow: dense;
+       
 }
 
-.img1 {
+.border {
     width: 350px;
     height: 150px;
+    position: sticky;
+
 }
 
-.img2 {
+.maket {
+    border: 1px solid rgb(222, 226, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 226, 230);
+    color: rgba(101, 116, 116, 0.445);
+}
+
+.another_border {
     width: 350px;
     height: 100px;
+}
+
+.b_border {
+    width: 350px;
+    height: 220px;
+}
+
+.the_border {
+    width: 350px;
+    height: 350px;
+}
+
+.bborder {
+    width: 350px;
+    height: 230px;
 }
